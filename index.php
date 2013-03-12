@@ -3,7 +3,7 @@
 $accessKey = 'REPLACE ME';
 $secretKey = 'REPLACE ME';
 
-define('IS_STAGING', $_SERVER['SERVER_NAME'] === 'new.stage.couchbase.com');
+define('IS_STAGING', $_SERVER['SERVER_NAME'] === 'stage.couchbase.com');
 define('IS_LOCAL', $_SERVER['SERVER_NAME'] === 'localhost');
 define('INCLUDE_PATH', IS_LOCAL ? '' : '/var/www/domains/couchbase.com/new.stage/htdocs/sites/all/libraries/download/');
 
